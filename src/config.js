@@ -140,19 +140,30 @@ var config = {
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
-				url: 'https://www.ign.es/wms/minutas-cartograficas?',
-				params: {'LAYERS': 'Minutas'}
+				url: 'http://www.cartociudad.es/wms-inspire/direcciones-ccpp',
+				params: {'LAYERS': 'AD.Address', 'VERSION': '1.3.0'}
 			}),
 			visible: false
 		}),
 
 		new ol.layer.Tile({
-			title: 'Ortoimágenes JCyL',
+			title: 'Ortoimágenes 1956 JCyL',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
-				url: 'https://www.ign.es/wms/minutas-cartograficas?',
-				params: {'LAYERS': 'Minutas'}
+				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
+				params: {'LAYERS': 'Ortofoto_1956', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+
+		new ol.layer.Tile({
+			title: 'Ortoimágenes 2021 JCyL',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
+				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
+				params: {'LAYERS': 'Ortofoto_CyL', 'VERSION': '1.3.0'}
 			}),
 			visible: false
 		}),
@@ -162,8 +173,8 @@ var config = {
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
-				url: 'https://www.ign.es/wms/minutas-cartograficas?',
-				params: {'LAYERS': 'Minutas'}
+				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
+				params: {'LAYERS': 'AD.Address', 'VERSION': '1.3.0'}
 			}),
 			visible: false
 		}),
