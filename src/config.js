@@ -126,7 +126,7 @@ var config = {
 
 		new ol.layer.Tile({
 			title: 'Parcelas catastrales',
-			iconSrc: imgSrc + 'logo_ign.png',
+			iconSrc: imgSrc + 'catastro.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; Dirección General del Catastro &mdash; Source: Dirección General del Catastro',
 				url: 'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?',
