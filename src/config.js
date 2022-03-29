@@ -130,7 +130,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; Dirección General del Catastro &mdash; Source: Dirección General del Catastro',
 				url: 'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?',
-				params: {'LAYERS': 'Catastro'}
+				params: {'LAYERS': 'Catastro', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
