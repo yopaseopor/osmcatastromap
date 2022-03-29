@@ -148,7 +148,7 @@ var config = {
 
 		new ol.layer.Tile({
 			title: 'Ortoimágenes 1956 JCyL',
-			iconSrc: imgSrc + 'logo_ign.png',
+			iconSrc: imgSrc + 'jcyl.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
 				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
@@ -159,7 +159,7 @@ var config = {
 
 		new ol.layer.Tile({
 			title: 'Ortoimágenes 2021 JCyL',
-			iconSrc: imgSrc + 'logo_ign.png',
+			iconSrc: imgSrc + 'jcyl.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
 				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
@@ -170,7 +170,7 @@ var config = {
 
 		new ol.layer.Tile({
 			title: 'Mapa topográfico unificado JCyL',
-			iconSrc: imgSrc + 'logo_ign.png',
+			iconSrc: imgSrc + 'jcyl.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
 				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
